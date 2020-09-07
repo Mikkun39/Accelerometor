@@ -13,8 +13,8 @@
 		BD178EF925062A920063517D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD178EF725062A920063517D /* Main.storyboard */; };
 		BD178EFB25062A930063517D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD178EFA25062A930063517D /* Assets.xcassets */; };
 		BD178EFE25062A930063517D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD178EFC25062A930063517D /* LaunchScreen.storyboard */; };
-		BD178F0925062A930063517D /* AcceleromatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178F0825062A930063517D /* AcceleromatorTests.swift */; };
-		BD178F1425062A930063517D /* AcceleromatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178F1325062A930063517D /* AcceleromatorUITests.swift */; };
+		BD178F0925062A930063517D /* AccelerometorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178F0825062A930063517D /* AccelerometorTests.swift */; };
+		BD178F1425062A930063517D /* AccelerometorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178F1325062A930063517D /* AccelerometorUITests.swift */; };
 		BD178F2425062AF40063517D /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = BD178F2225062AF40063517D /* awa.png */; };
 		BD178F2525062AF40063517D /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = BD178F2325062AF40063517D /* suiheiki.png */; };
 		BD178F272506306C0063517D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178F262506306C0063517D /* GameViewController.swift */; };
@@ -48,10 +48,10 @@
 		BD178EFD25062A930063517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD178EFF25062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD178F0425062A930063517D /* AccelerometorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD178F0825062A930063517D /* AcceleromatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromatorTests.swift; sourceTree = "<group>"; };
+		BD178F0825062A930063517D /* AccelerometorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometorTests.swift; sourceTree = "<group>"; };
 		BD178F0A25062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD178F0F25062A930063517D /* AccelerometorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD178F1325062A930063517D /* AcceleromatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromatorUITests.swift; sourceTree = "<group>"; };
+		BD178F1325062A930063517D /* AccelerometorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometorUITests.swift; sourceTree = "<group>"; };
 		BD178F1525062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD178F2225062AF40063517D /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
 		BD178F2325062AF40063517D /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				BD178EF025062A920063517D /* Accelerometor */,
-				BD178F0725062A930063517D /* AcceleromatorTests */,
-				BD178F1225062A930063517D /* AcceleromatorUITests */,
+				BD178F0725062A930063517D /* AccelerometorTests */,
+				BD178F1225062A930063517D /* AccelerometorUITests */,
 				BD178EEF25062A920063517D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,22 +121,22 @@
 			path = Accelerometor;
 			sourceTree = "<group>";
 		};
-		BD178F0725062A930063517D /* AcceleromatorTests */ = {
+		BD178F0725062A930063517D /* AccelerometorTests */ = {
 			isa = PBXGroup;
 			children = (
-				BD178F0825062A930063517D /* AcceleromatorTests.swift */,
+				BD178F0825062A930063517D /* AccelerometorTests.swift */,
 				BD178F0A25062A930063517D /* Info.plist */,
 			);
-			path = AcceleromatorTests;
+			path = AccelerometorTests;
 			sourceTree = "<group>";
 		};
-		BD178F1225062A930063517D /* AcceleromatorUITests */ = {
+		BD178F1225062A930063517D /* AccelerometorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BD178F1325062A930063517D /* AcceleromatorUITests.swift */,
+				BD178F1325062A930063517D /* AccelerometorUITests.swift */,
 				BD178F1525062A930063517D /* Info.plist */,
 			);
-			path = AcceleromatorUITests;
+			path = AccelerometorUITests;
 			sourceTree = "<group>";
 		};
 		BD178F2125062AF40063517D /* 13_Resource */ = {
@@ -293,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD178F0925062A930063517D /* AcceleromatorTests.swift in Sources */,
+				BD178F0925062A930063517D /* AccelerometorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD178F1425062A930063517D /* AcceleromatorUITests.swift in Sources */,
+				BD178F1425062A930063517D /* AccelerometorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
