@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD178EF225062A920063517D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178EF125062A920063517D /* AppDelegate.swift */; };
+		BD178EF425062A920063517D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178EF325062A920063517D /* SceneDelegate.swift */; };
+		BD178EF625062A920063517D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178EF525062A920063517D /* ViewController.swift */; };
+		BD178EF925062A920063517D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD178EF725062A920063517D /* Main.storyboard */; };
+		BD178EFB25062A930063517D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD178EFA25062A930063517D /* Assets.xcassets */; };
+		BD178EFE25062A930063517D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD178EFC25062A930063517D /* LaunchScreen.storyboard */; };
+		BD178F0925062A930063517D /* AcceleromatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178F0825062A930063517D /* AcceleromatorTests.swift */; };
+		BD178F1425062A930063517D /* AcceleromatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD178F1325062A930063517D /* AcceleromatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD178F0525062A930063517D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD178EE625062A920063517D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD178EED25062A920063517D;
+			remoteInfo = Acceleromator;
+		};
+		BD178F1025062A930063517D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD178EE625062A920063517D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD178EED25062A920063517D;
+			remoteInfo = Acceleromator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD178EEE25062A920063517D /* Acceleromator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acceleromator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD178EF125062A920063517D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD178EF325062A920063517D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD178EF525062A920063517D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD178EF825062A920063517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD178EFA25062A930063517D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD178EFD25062A930063517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD178EFF25062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD178F0425062A930063517D /* AcceleromatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleromatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD178F0825062A930063517D /* AcceleromatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromatorTests.swift; sourceTree = "<group>"; };
+		BD178F0A25062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD178F0F25062A930063517D /* AcceleromatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleromatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD178F1325062A930063517D /* AcceleromatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromatorUITests.swift; sourceTree = "<group>"; };
+		BD178F1525062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD178EEB25062A920063517D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD178F0125062A930063517D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD178F0C25062A930063517D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD178EE525062A920063517D = {
+			isa = PBXGroup;
+			children = (
+				BD178EF025062A920063517D /* Acceleromator */,
+				BD178F0725062A930063517D /* AcceleromatorTests */,
+				BD178F1225062A930063517D /* AcceleromatorUITests */,
+				BD178EEF25062A920063517D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD178EEF25062A920063517D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD178EEE25062A920063517D /* Acceleromator.app */,
+				BD178F0425062A930063517D /* AcceleromatorTests.xctest */,
+				BD178F0F25062A930063517D /* AcceleromatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD178EF025062A920063517D /* Acceleromator */ = {
+			isa = PBXGroup;
+			children = (
+				BD178EF125062A920063517D /* AppDelegate.swift */,
+				BD178EF325062A920063517D /* SceneDelegate.swift */,
+				BD178EF525062A920063517D /* ViewController.swift */,
+				BD178EF725062A920063517D /* Main.storyboard */,
+				BD178EFA25062A930063517D /* Assets.xcassets */,
+				BD178EFC25062A930063517D /* LaunchScreen.storyboard */,
+				BD178EFF25062A930063517D /* Info.plist */,
+			);
+			path = Acceleromator;
+			sourceTree = "<group>";
+		};
+		BD178F0725062A930063517D /* AcceleromatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD178F0825062A930063517D /* AcceleromatorTests.swift */,
+				BD178F0A25062A930063517D /* Info.plist */,
+			);
+			path = AcceleromatorTests;
+			sourceTree = "<group>";
+		};
+		BD178F1225062A930063517D /* AcceleromatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD178F1325062A930063517D /* AcceleromatorUITests.swift */,
+				BD178F1525062A930063517D /* Info.plist */,
+			);
+			path = AcceleromatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD178EED25062A920063517D /* Acceleromator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD178F1825062A930063517D /* Build configuration list for PBXNativeTarget "Acceleromator" */;
+			buildPhases = (
+				BD178EEA25062A920063517D /* Sources */,
+				BD178EEB25062A920063517D /* Frameworks */,
+				BD178EEC25062A920063517D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acceleromator;
+			productName = Acceleromator;
+			productReference = BD178EEE25062A920063517D /* Acceleromator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD178F0325062A930063517D /* AcceleromatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD178F1B25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorTests" */;
+			buildPhases = (
+				BD178F0025062A930063517D /* Sources */,
+				BD178F0125062A930063517D /* Frameworks */,
+				BD178F0225062A930063517D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD178F0625062A930063517D /* PBXTargetDependency */,
+			);
+			name = AcceleromatorTests;
+			productName = AcceleromatorTests;
+			productReference = BD178F0425062A930063517D /* AcceleromatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD178F0E25062A930063517D /* AcceleromatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD178F1E25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorUITests" */;
+			buildPhases = (
+				BD178F0B25062A930063517D /* Sources */,
+				BD178F0C25062A930063517D /* Frameworks */,
+				BD178F0D25062A930063517D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD178F1125062A930063517D /* PBXTargetDependency */,
+			);
+			name = AcceleromatorUITests;
+			productName = AcceleromatorUITests;
+			productReference = BD178F0F25062A930063517D /* AcceleromatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD178EE625062A920063517D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Takayama Mizuki";
+				TargetAttributes = {
+					BD178EED25062A920063517D = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					BD178F0325062A930063517D = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BD178EED25062A920063517D;
+					};
+					BD178F0E25062A930063517D = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BD178EED25062A920063517D;
+					};
+				};
+			};
+			buildConfigurationList = BD178EE925062A920063517D /* Build configuration list for PBXProject "Acceleromator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD178EE525062A920063517D;
+			productRefGroup = BD178EEF25062A920063517D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD178EED25062A920063517D /* Acceleromator */,
+				BD178F0325062A930063517D /* AcceleromatorTests */,
+				BD178F0E25062A930063517D /* AcceleromatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD178EEC25062A920063517D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD178EFE25062A930063517D /* LaunchScreen.storyboard in Resources */,
+				BD178EFB25062A930063517D /* Assets.xcassets in Resources */,
+				BD178EF925062A920063517D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD178F0225062A930063517D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD178F0D25062A930063517D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD178EEA25062A920063517D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD178EF625062A920063517D /* ViewController.swift in Sources */,
+				BD178EF225062A920063517D /* AppDelegate.swift in Sources */,
+				BD178EF425062A920063517D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD178F0025062A930063517D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD178F0925062A930063517D /* AcceleromatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD178F0B25062A930063517D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD178F1425062A930063517D /* AcceleromatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD178F0625062A930063517D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD178EED25062A920063517D /* Acceleromator */;
+			targetProxy = BD178F0525062A930063517D /* PBXContainerItemProxy */;
+		};
+		BD178F1125062A930063517D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD178EED25062A920063517D /* Acceleromator */;
+			targetProxy = BD178F1025062A930063517D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD178EF725062A920063517D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD178EF825062A920063517D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD178EFC25062A930063517D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD178EFD25062A930063517D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD178F1625062A930063517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD178F1725062A930063517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD178F1925062A930063517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Acceleromator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.Acceleromator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD178F1A25062A930063517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Acceleromator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.Acceleromator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD178F1C25062A930063517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceleromatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.AcceleromatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acceleromator.app/Acceleromator";
+			};
+			name = Debug;
+		};
+		BD178F1D25062A930063517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceleromatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.AcceleromatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acceleromator.app/Acceleromator";
+			};
+			name = Release;
+		};
+		BD178F1F25062A930063517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceleromatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.AcceleromatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Acceleromator;
+			};
+			name = Debug;
+		};
+		BD178F2025062A930063517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceleromatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.takayama.mizuki.AcceleromatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Acceleromator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD178EE925062A920063517D /* Build configuration list for PBXProject "Acceleromator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD178F1625062A930063517D /* Debug */,
+				BD178F1725062A930063517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD178F1825062A930063517D /* Build configuration list for PBXNativeTarget "Acceleromator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD178F1925062A930063517D /* Debug */,
+				BD178F1A25062A930063517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD178F1B25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD178F1C25062A930063517D /* Debug */,
+				BD178F1D25062A930063517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD178F1E25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD178F1F25062A930063517D /* Debug */,
+				BD178F2025062A930063517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD178EE625062A920063517D /* Project object */;
+}
