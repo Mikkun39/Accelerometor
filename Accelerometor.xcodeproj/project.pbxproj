@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD178EEE25062A920063517D /* Acceleromator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acceleromator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD178EEE25062A920063517D /* Accelerometor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD178EF125062A920063517D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD178EF325062A920063517D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BD178EF525062A920063517D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		BD178EFA25062A930063517D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD178EFD25062A930063517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD178EFF25062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD178F0425062A930063517D /* AcceleromatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleromatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD178F0425062A930063517D /* AccelerometorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD178F0825062A930063517D /* AcceleromatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromatorTests.swift; sourceTree = "<group>"; };
 		BD178F0A25062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD178F0F25062A930063517D /* AcceleromatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleromatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD178F0F25062A930063517D /* AccelerometorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD178F1325062A930063517D /* AcceleromatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromatorUITests.swift; sourceTree = "<group>"; };
 		BD178F1525062A930063517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD178F2225062AF40063517D /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		BD178EE525062A920063517D = {
 			isa = PBXGroup;
 			children = (
-				BD178EF025062A920063517D /* Acceleromator */,
+				BD178EF025062A920063517D /* Accelerometor */,
 				BD178F0725062A930063517D /* AcceleromatorTests */,
 				BD178F1225062A930063517D /* AcceleromatorUITests */,
 				BD178EEF25062A920063517D /* Products */,
@@ -97,14 +97,14 @@
 		BD178EEF25062A920063517D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD178EEE25062A920063517D /* Acceleromator.app */,
-				BD178F0425062A930063517D /* AcceleromatorTests.xctest */,
-				BD178F0F25062A930063517D /* AcceleromatorUITests.xctest */,
+				BD178EEE25062A920063517D /* Accelerometor.app */,
+				BD178F0425062A930063517D /* AccelerometorTests.xctest */,
+				BD178F0F25062A930063517D /* AccelerometorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD178EF025062A920063517D /* Acceleromator */ = {
+		BD178EF025062A920063517D /* Accelerometor */ = {
 			isa = PBXGroup;
 			children = (
 				BD178F2125062AF40063517D /* 13_Resource */,
@@ -118,7 +118,7 @@
 				BD178F262506306C0063517D /* GameViewController.swift */,
 				BD178F282506307C0063517D /* ResultViewController.swift */,
 			);
-			path = Acceleromator;
+			path = Accelerometor;
 			sourceTree = "<group>";
 		};
 		BD178F0725062A930063517D /* AcceleromatorTests */ = {
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD178EED25062A920063517D /* Acceleromator */ = {
+		BD178EED25062A920063517D /* Accelerometor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD178F1825062A930063517D /* Build configuration list for PBXNativeTarget "Acceleromator" */;
+			buildConfigurationList = BD178F1825062A930063517D /* Build configuration list for PBXNativeTarget "Accelerometor" */;
 			buildPhases = (
 				BD178EEA25062A920063517D /* Sources */,
 				BD178EEB25062A920063517D /* Frameworks */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = Acceleromator;
+			name = Accelerometor;
 			productName = Acceleromator;
-			productReference = BD178EEE25062A920063517D /* Acceleromator.app */;
+			productReference = BD178EEE25062A920063517D /* Accelerometor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD178F0325062A930063517D /* AcceleromatorTests */ = {
+		BD178F0325062A930063517D /* AccelerometorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD178F1B25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorTests" */;
+			buildConfigurationList = BD178F1B25062A930063517D /* Build configuration list for PBXNativeTarget "AccelerometorTests" */;
 			buildPhases = (
 				BD178F0025062A930063517D /* Sources */,
 				BD178F0125062A930063517D /* Frameworks */,
@@ -181,14 +181,14 @@
 			dependencies = (
 				BD178F0625062A930063517D /* PBXTargetDependency */,
 			);
-			name = AcceleromatorTests;
+			name = AccelerometorTests;
 			productName = AcceleromatorTests;
-			productReference = BD178F0425062A930063517D /* AcceleromatorTests.xctest */;
+			productReference = BD178F0425062A930063517D /* AccelerometorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BD178F0E25062A930063517D /* AcceleromatorUITests */ = {
+		BD178F0E25062A930063517D /* AccelerometorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD178F1E25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorUITests" */;
+			buildConfigurationList = BD178F1E25062A930063517D /* Build configuration list for PBXNativeTarget "AccelerometorUITests" */;
 			buildPhases = (
 				BD178F0B25062A930063517D /* Sources */,
 				BD178F0C25062A930063517D /* Frameworks */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				BD178F1125062A930063517D /* PBXTargetDependency */,
 			);
-			name = AcceleromatorUITests;
+			name = AccelerometorUITests;
 			productName = AcceleromatorUITests;
-			productReference = BD178F0F25062A930063517D /* AcceleromatorUITests.xctest */;
+			productReference = BD178F0F25062A930063517D /* AccelerometorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD178EE925062A920063517D /* Build configuration list for PBXProject "Acceleromator" */;
+			buildConfigurationList = BD178EE925062A920063517D /* Build configuration list for PBXProject "Accelerometor" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD178EED25062A920063517D /* Acceleromator */,
-				BD178F0325062A930063517D /* AcceleromatorTests */,
-				BD178F0E25062A930063517D /* AcceleromatorUITests */,
+				BD178EED25062A920063517D /* Accelerometor */,
+				BD178F0325062A930063517D /* AccelerometorTests */,
+				BD178F0E25062A930063517D /* AccelerometorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -310,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		BD178F0625062A930063517D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD178EED25062A920063517D /* Acceleromator */;
+			target = BD178EED25062A920063517D /* Accelerometor */;
 			targetProxy = BD178F0525062A930063517D /* PBXContainerItemProxy */;
 		};
 		BD178F1125062A930063517D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD178EED25062A920063517D /* Acceleromator */;
+			target = BD178EED25062A920063517D /* Accelerometor */;
 			targetProxy = BD178F1025062A930063517D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -505,7 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acceleromator.app/Acceleromator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometor.app/Accelerometor";
 			};
 			name = Debug;
 		};
@@ -526,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acceleromator.app/Acceleromator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometor.app/Accelerometor";
 			};
 			name = Release;
 		};
@@ -571,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD178EE925062A920063517D /* Build configuration list for PBXProject "Acceleromator" */ = {
+		BD178EE925062A920063517D /* Build configuration list for PBXProject "Accelerometor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD178F1625062A930063517D /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD178F1825062A930063517D /* Build configuration list for PBXNativeTarget "Acceleromator" */ = {
+		BD178F1825062A930063517D /* Build configuration list for PBXNativeTarget "Accelerometor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD178F1925062A930063517D /* Debug */,
@@ -589,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD178F1B25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorTests" */ = {
+		BD178F1B25062A930063517D /* Build configuration list for PBXNativeTarget "AccelerometorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD178F1C25062A930063517D /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD178F1E25062A930063517D /* Build configuration list for PBXNativeTarget "AcceleromatorUITests" */ = {
+		BD178F1E25062A930063517D /* Build configuration list for PBXNativeTarget "AccelerometorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD178F1F25062A930063517D /* Debug */,
